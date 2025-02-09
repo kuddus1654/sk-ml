@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(135deg, #28EDC9, #1B1B1B);
+    background-size: flex; 
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+}
+.social-link img {
+    transition: transform 0.3s ease, border 0.3s ease;
+    border-radius: 10%;
+}
+.social-link:hover img {
+    transform: scale(1.2);
+    border: 3px solid #28EDC9;
+    border-radius: 50%;
+}
+.container-fluid {
+    padding: 50px 0;
+    background: url('#') no-repeat center center;
+    background-size: 20%;
+}
+.profile-img {
+    border-radius: 20%;
+    border: 2px solid #fff;
+}
+a:hover {
+    color: #28EDC9;
+    text-decoration: none;
+}
+.link_card {
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: border 0.3s ease, transform 0.3s ease;
+}
+.link_card:hover {
+    border: 2px solid #28EDC9;
+    transform: scale(1.05);
+}
