@@ -6,65 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Google Fonts for Professional Look -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="shortcut icon" type=" Aks social media icon" href="./img/title.png">
+    <link rel="shortcut icon" type=" Aks social media icon" href="./kuddus.png">
 
-    <title>Kuddus Shaikh</title>
+    <title>Kuddus Shaikh - Portfolio</title>
 </head>
 
-<body class="ultra-future">
-    <!-- System Boot Animation -->
-    <div class="system-boot">
-        <div class="boot-text">SYSTEM START</div>
-    </div>
+<body class="professional-theme">
+    
+    <!-- Background Elements -->
+    <div class="bg-gradient-overlay"></div>
+    <div class="bg-noise"></div>
 
-    <div class="stars"></div>
-    <div class="grid-overlay"></div>
+    <div class="container-fluid min-vh-100 py-4 d-flex flex-column align-items-center justify-content-center position-relative z-1">
 
-    <!-- HUD Clock -->
-    <div class="hud-clock" id="clockDisplay">--:--:--</div>
+        <div class="contact-header mb-4 text-center fade-in-up">
+            <h3 class="header-text">Connect with me from the below link</h3>
+        </div>
 
-    <div class="container-fluid vh-100 d-flex flex-column align-items-center justify-content-center">
+        <div class="profile-card fade-in-up delay-1">
+            <!-- Profile Image -->
+            <div class="profile-image-container">
+                <img src="./kuddus.png" alt="Kuddus Shaikh" class="img-fluid profile-img">
+            </div>
 
-        <div class="hologram-profile floating-element card-1">
-            <div class="circuit-border"></div>
-            <!-- Logo Title -->
-            <img src="./img/title.png" alt="My Card" class="img-fluid title-logo d-block mx-auto"
-                style="max-height: 90px; margin-bottom: 15px;">
+            <!-- Name -->
+            <h1 class="profile-name">Kuddus Shaikh</h1>
+            <p class="profile-title">Portfolio</p>
 
-        
-
-            <!-- Glitch Text Name -->
-            <h2 class="neo-text glitch" data-text="Kuddus Shaikh">Kuddus Shaikh</h2>
-
-            <div class="social-icons-row d-flex justify-content-center gap-3 mt-3">
-                <a href="https://x.com/Kuddus__Shaikh" target="_blank" class="social-icon">
+            <div class="social-icons-row d-flex justify-content-center gap-4 mt-4">
+                <a href="https://x.com/Kuddus__Shaikh" target="_blank" class="social-icon" aria-label="X (Twitter)">
                     <img src="./img/x.svg" alt="X">
                 </a>
-                <a href="https://github.com/kuddus1654" target="_blank" class="social-icon">
+                <a href="https://github.com/kuddus1654" target="_blank" class="social-icon" aria-label="GitHub">
                     <img src="./img/github.svg" alt="GitHub">
                 </a>
                 <a href="https://www.facebook.com/kuddus.shaikh.1654?mibextid=qi2Omg&rdid=mlVMrmkqHCLrFI8t"
-                    target="_blank" class="social-icon">
+                    target="_blank" class="social-icon" aria-label="Facebook">
                     <img src="./img/facebook.svg" alt="Facebook">
                 </a>
-                <a href="https://in.linkedin.com/in/kuddus-shaikh-9b769926b" target="_blank" class="social-icon">
+                <a href="https://in.linkedin.com/in/kuddus-shaikh-9b769926b" target="_blank" class="social-icon" aria-label="LinkedIn">
                     <img src="./img/linkedin.svg" alt="LinkedIn">
                 </a>
             </div>
         </div>
 
-        <div class="links-container mt-5">
-            <a href="https://wa.me/message/HZBOSCUKLOG5E1?src=qr"
-                class="link-hologram drift-left" target="_blank">
-                <img src="img/whatsapp.webp" alt="WhatsApp"> <span>WhatsApp</span>
+        <div class="links-container mt-4 fade-in-up delay-2">
+            <a href="mailto:shaikhkuddus56@gmail.com?subject=Hire%20Inquiry" class="action-btn email-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                <span>shaikhkuddus56@gmail.com</span>
             </a>
-            <a href="https://www.instagram.com/kuddus__shaikh" class="link-hologram drift-right" target="_blank">
-                <img src="img/instagram.webp" alt="Instagram"> <span>Instagram</span>
-            </a>
-            <a href="https://www.youtube.com/@Kuddus__Shaikh" class="link-hologram drift-center" target="_blank">
-                <img src="img/youtube.webp" alt="YouTube"> <span>YouTube</span>
-            </a>
+            
+            <div class="w-100 d-none d-md-block" style="height: 0;"></div> <!-- Force wrap -->
+            
+            <div class="d-flex flex-wrap justify-content-center gap-3 w-100">
+                <a href="https://wa.me/message/HZBOSCUKLOG5E1?src=qr" class="action-btn secondary-btn" target="_blank">
+                    <img src="img/whatsapp.webp" alt="WhatsApp"> <span>WhatsApp</span>
+                </a>
+                <a href="https://www.instagram.com/kuddus__shaikh" class="action-btn secondary-btn" target="_blank">
+                    <img src="img/instagram.webp" alt="Instagram"> <span>Instagram</span>
+                </a>
+                <a href="https://www.youtube.com/@Kuddus__Shaikh" class="action-btn secondary-btn" target="_blank">
+                    <img src="img/youtube.webp" alt="YouTube"> <span>YouTube</span>
+                </a>
+            </div>
         </div>
     </div>
 
@@ -74,61 +81,23 @@
 
     <!-- Interactions Script -->
     <script>
-        // 1. Clock Logic
-        function updateClock() {
-            const now = new Date();
-            const time = now.toLocaleTimeString('en-US', { hour12: false });
-            const date = now.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-            document.getElementById('clockDisplay').innerHTML = `SYS.TIME: ${date} | ${time}`;
-        }
-        setInterval(updateClock, 1000);
-        updateClock();
-
-        // 2. Desktop Mouse Parallax
+        // Subtle Mouse Parallax for professional feel
         document.addEventListener('mousemove', (e) => {
-            // Only run on non-touch devices ideally, or check width
             if (window.innerWidth < 768) return;
 
             const { clientX, clientY } = e;
             const centerX = window.innerWidth / 2;
             const centerY = window.innerHeight / 2;
 
-            const moveX = (clientX - centerX) / 40;
-            const moveY = (clientY - centerY) / 40;
+            const moveX = (clientX - centerX) / 80; // Subtle movement
+            const moveY = (clientY - centerY) / 80;
 
-            const profile = document.querySelector('.hologram-profile');
-            const links = document.querySelectorAll('.link-hologram');
-
-            if (profile) profile.style.transform = `perspective(1000px) rotateY(${moveX}deg) rotateX(${-moveY}deg)`;
-
-            links.forEach((link, index) => {
-                link.style.transform = `translate(${moveX * 0.5}px, ${moveY * 0.5}px)`;
-            });
+            const profile = document.querySelector('.profile-card');
+            
+            if (profile) {
+                profile.style.transform = `perspective(1000px) rotateY(${moveX}deg) rotateX(${-moveY}deg)`;
+            }
         });
-
-        // 3. Mobile Gyroscope Parallax
-        if (window.DeviceOrientationEvent) {
-            window.addEventListener("deviceorientation", (event) => {
-                // Check if device is actually reporting data (some desktops fire empty events)
-                if (!event.beta) return;
-
-                const tiltX = event.beta;  // (-180 to 180) Forward/Back
-                const tiltY = event.gamma; // (-90 to 90) Left/Right
-
-                // Limit rotation
-                const rotX = Math.max(-15, Math.min(15, tiltX / 2));
-                const rotY = Math.max(-15, Math.min(15, tiltY / 2));
-
-                const profile = document.querySelector('.hologram-profile');
-                if (profile) {
-                    profile.style.transform = `perspective(1000px) rotateY(${rotY}deg) rotateX(${-rotX}deg)`;
-                }
-            }, true);
-        }
     </script>
 </body>
-
-
 </html>
-
-
